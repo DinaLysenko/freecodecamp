@@ -3,8 +3,26 @@ body {
     font-family: sans-serif;
 }
 
+h1 {
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+h1, h2, p {
+    text-align: center;
+}
+
 .established {
     font-style: italic;
+}
+
+hr {
+    height: 2px;
+    background-color: brown;
+    border-color: brown;
 }
 
 .menu {
@@ -14,10 +32,6 @@ body {
     margin-right: auto;
     padding: 20px;
     max-width: 500px;
-}
-
-h1, h2, p {
-    text-align: center;
 }
 
 h1, h2 {
