@@ -1,6 +1,7 @@
 body {
     background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
     font-family: sans-serif;
+    padding: 20px;
 }
 
 h1 {
@@ -25,6 +26,10 @@ hr {
     border-color: brown;
 }
 
+.bottom-line {
+    margin-top: 25px;
+}
+
 .menu {
     width: 80%;
     background-color: burlywood;
@@ -40,6 +45,8 @@ h1, h2 {
 
 .item p {
     display: inline-block;
+    margin: 5px 0;
+    font-size: 18px;
 }
 
 .flavor, .dessert {
@@ -50,5 +57,18 @@ h1, h2 {
 .price {
     text-align: right;
     width: 25%;
+}
+
+/* FOOTER */
+footer {
+    font-size: 14px;
+}
+
+a {
+    color: black;
+}
+
+a:visited {
+    color: gray;
 }
 
