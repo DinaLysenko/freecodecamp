@@ -38,15 +38,17 @@ form {
     background-color: #121241CC;
     width: 60%;
     margin: 0 auto;
-    height: 100vh;
+    height: 100%;
     padding: 40px;
-
+    border-radius: 5px;
+    box-sizing: border-box;
 }
 
-label {
-    display: block;
-}
+div {
+display: block;
 
-input, textarea {
+}
+#name {
     width: 100%;
 }
+
