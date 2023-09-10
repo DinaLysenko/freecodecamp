@@ -36,17 +36,73 @@ p {
 
 form {
     background-color: #121241CC;
-    width: 60%;
+    width: 50%;
     margin: 0 auto;
-    height: 100vh;
-    padding: 40px;
-
+    height: 100%;
+    padding: 20px 40px;
 }
 
 label {
     display: block;
+    margin: 20px auto;
 }
 
-input, textarea {
+input, textarea, select {
     width: 100%;
 }
+
+input, select {
+    height: 30px;
+    margin: 15px auto;
+    padding: 0 5px;
+    font-size: 16px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid #fff;
+    color: #495057;
+}
+
+input:focus, select:focus {
+    border: 3px solid rgba(58, 58, 158);
+}
+
+.form-group {
+    margin-top: 10px;
+}
+
+input[type='radio'], input[type='checkbox'] {
+    height: 10px;
+    width: unset;
+    margin: 0 5px 0;
+    zoom: 2;
+}
+
+form p {
+    text-align: left;
+    margin: 10px 0 5px;
+}
+
+textarea {
+    margin-top: 10px;
+    height: 100px;
+    padding: 5px;
+    font-size: 16px;
+}
+
+button {
+    width: 100%;
+    height: 40px;
+    border-radius: 3px;
+    background-color: seagreen;
+    color: white;
+    font-size: 14px;
+    border: none;
+    margin-top: 20px;
+}
+
+label[for='feature'], label[for='comments'] {
+    margin-top: 50px;
+}
+
+
+
