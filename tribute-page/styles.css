@@ -1,6 +1,67 @@
+body {
+    font-family: Verdana, sans-serif;
+    margin: 30px 8px;
+}
+
+#title {
+    height: 120px;
+    line-height: 140px;
+    margin: 0;
+
+}
+
+#title-paragraph {
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+main {
+    background-color: #d8d8ec;
+    border-radius: 3px;
+}
+h1, h3, p {
+    text-align: center;
+}
+#img-div {
+    background-color: #f6f5f5;
+    width: 98%;
+    margin: 0 auto;
+
+}
+
 #image {
     max-width: 100%;
     height: auto;
     margin: 0 auto;
     display: block;
+}
+
+#img-caption {
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+}
+li {
+    margin-bottom: 20px;
+}
+#tribute-info {
+    width: 600px;
+    margin: 40px auto;
+}
+
+h3 {
+    height: 50px;
+}
+.blockquote p {
+    text-align: justify;
+}
+.blockquote {
+    margin-top: 50px;
+}
+#link {
+    font-weight: bold;
+    height: 50px;
+}
+a {
+    color: blueviolet;
 }
