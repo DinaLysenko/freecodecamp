@@ -71,6 +71,7 @@ body {
     border-top-left-radius: 90px;
     border-top-right-radius: 10px;
 }
+
 .cat-left-eye {
     width: 30px;
     height: 40px;
@@ -81,6 +82,7 @@ body {
     border-radius: 60%;
     transform: rotate(25deg);
 }
+
 .cat-right-eye {
     width: 30px;
     height: 40px;
@@ -91,6 +93,7 @@ body {
     border-radius: 60%;
     transform: rotate(-25deg);
 }
+
 .cat-left-inner-eye {
     width: 10px;
     height: 20px;
@@ -101,6 +104,7 @@ body {
     border-radius: 60%;
     transform: rotate(10deg);
 }
+
 .cat-right-inner-eye {
     width: 10px;
     height: 20px;
@@ -111,6 +115,7 @@ body {
     border-radius: 60%;
     transform: rotate(-5deg);
 }
+
 .cat-nose {
     border-left: 15px solid transparent;
     border-right: 15px solid transparent;
@@ -122,4 +127,80 @@ body {
     border-bottom-right-radius: 50%;
     border-bottom-left-radius: 50%;
     transform: rotate(180deg);
+}
+
+.cat-mouth div {
+    width: 30px;
+    height: 50px;
+    border: 2px solid #000;
+    border-color: black transparent transparent transparent;
+    border-radius: 190%/190px 150px 0 0;
+}
+
+.cat-mouth-line-left {
+    position: absolute;
+    top: 88px;
+    left: 74px;
+    transform: rotate(170deg);
+}
+
+.cat-mouth-line-right {
+    position: absolute;
+    top: 88px;
+    left: 91px;
+    transform: rotate(165deg)
+}
+
+.cat-whiskers-left div {
+    width: 40px;
+    height: 1px;
+    background-color: #000;
+}
+
+.cat-whiskers-right div {
+    width: 40px;
+    height: 1px;
+    background-color: #000;
+}
+
+.cat-whisker-left-top {
+    position: absolute;
+    top: 120px;
+    left: 52px;
+    transform: rotate(10deg);
+}
+
+.cat-whisker-left-middle {
+    position: absolute;
+    top: 127px;
+    left: 52px;
+    transform: rotate(3deg);
+}
+
+.cat-whisker-left-bottom {
+    position: absolute;
+    top: 134px;
+    left: 52px;
+    transform: rotate(-3deg);
+}
+
+.cat-whisker-right-top {
+    position: absolute;
+    top: 120px;
+    left: 109px;
+    transform: rotate(-10deg);
+}
+
+.cat-whisker-right-middle {
+    position: absolute;
+    top: 127px;
+    left: 109px;
+    transform: rotate(-3deg);
+}
+
+.cat-whisker-right-bottom {
+    position: absolute;
+    top: 134px;
+    left: 109px;
+    transform: rotate(3deg);
 }
