@@ -1,0 +1,66 @@
+html, body {
+    font-family: sans-serif;
+    line-height: 1.5;
+}
+
+#navbar {
+    position: fixed;;
+    top: 0;
+    left: 0;
+    width: 300px;
+    height: 100%;
+    border-right: 2px solid #656594;
+}
+
+#main-doc {
+    position: absolute;
+    top: 0;
+    left: 300px;
+}
+
+header {
+    font-size: 30px;
+    font-weight: 300;
+    padding-left: 30px;
+    padding-top: 20px;
+}
+
+#navbar ul {
+    padding: 0;
+}
+
+#navbar li {
+    height: 45px;
+    width: 100%;
+    border-top: 1px solid #484646;
+    position: relative;
+    list-style-type: none;
+    line-height: 45px;
+}
+
+#navbar a {
+    font-size: 16px;
+    text-decoration: none;
+    color: #44444f;
+    cursor: pointer;
+    padding-left: 20px;
+}
+
+#main-doc article {
+    padding-left: 40px;
+    padding-right: 30px;
+    color: #44444f;
+}
+
+code {
+    display: block;
+    text-align: left;
+    white-space: pre-line;
+    line-height: 2;
+    background-color: #f7f7f7;
+    padding: 15px;
+    border-radius: 5px;
+}
+#Data_types .second-list li {
+    padding: 5px;
+}
