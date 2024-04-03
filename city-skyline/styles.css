@@ -277,6 +277,7 @@ body {
             var(--window-color3) 30%
     );
 }
+
 @media (max-width: 1000px) {
     :root {
         --building-color1: #000;
@@ -287,7 +288,8 @@ body {
         --window-color2: #777;
         --window-color3: #777;
         --window-color4: #777;
-    };
+    }
+
     .sky {
         background: radial-gradient(
                 closest-corner circle at 15% 15%,
