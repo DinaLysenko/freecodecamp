@@ -23,3 +23,25 @@ h1 {
 h2, h3, h4, h5, h6 {
     font-family: Raleway, sans-serif;
 }
+
+a {
+    text-decoration: none;
+    color: linen;
+}
+
+main {
+    display: grid;
+    grid-template-columns: minmax(2rem, 1fr) minmax(min-content, 94rem) minmax(2rem, 1fr);
+    row-gap: 3rem;
+}
+
+.heading {
+    display: grid;
+    grid-column: 2/3;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 1.5rem;
+}
+
+.text {
+    grid-column: 2/3;
+}
