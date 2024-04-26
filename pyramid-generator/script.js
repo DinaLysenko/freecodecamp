@@ -1,7 +1,4 @@
 let character = 'Hello';
-console.log(character);
-character='World';
-console.log(character);
-let secondCharacter;
-secondCharacter = character;
-console.log(secondCharacter)
+let count =8;
+let rows=["Naomi", "Quincy", "CamperChan"];
+console.log(rows)
